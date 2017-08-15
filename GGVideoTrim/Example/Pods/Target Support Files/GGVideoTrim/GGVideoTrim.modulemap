@@ -1,0 +1,6 @@
+framework module GGVideoTrim {
+  umbrella header "GGVideoTrim-umbrella.h"
+
+  export *
+  module * { export * }
+}

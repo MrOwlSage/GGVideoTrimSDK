@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GGVideoTrim (0.1.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - GGVideoTrim (from `../`)
+
+EXTERNAL SOURCES:
+  GGVideoTrim:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  GGVideoTrim: 9a17ab758149a7f985339a35cbda6d4deaef67d8
+
+PODFILE CHECKSUM: 82f2ee05532e6995c4063b18e4b0da80305b216f
+
+COCOAPODS: 1.2.1

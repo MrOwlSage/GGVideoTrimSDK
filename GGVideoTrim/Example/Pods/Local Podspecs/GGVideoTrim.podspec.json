@@ -1,0 +1,27 @@
+{
+  "name": "GGVideoTrim",
+  "version": "0.1.0",
+  "summary": "A short description of GGVideoTrim.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhao19880827/GGVideoTrim",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhao19880827": "bjzhaoyingru@corp.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/zhao19880827/GGVideoTrim.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GGVideoTrim/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

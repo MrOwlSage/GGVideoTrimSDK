@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GGVideoTrim"
   s.version      = "1.0.0"
-  s.summary      = "A short description of GGVideoTrim."
+  s.summary      = "This si a framework for triming video"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/GGVideoTrim"
+  s.homepage     = "https://github.com/zhao19880827/GGVideoTrimSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhao19880827/GGVideoTrimSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhao19880827/GGVideoTrimSDK.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,6 @@ Pod::Spec.new do |s|
   s.exclude_files = "GGVideoTrim/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -129,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "Masonry"
